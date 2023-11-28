@@ -2,11 +2,15 @@ let button = document.querySelector("button")
 let Inputtext = document.querySelector(".Inputtext")
 let span = document.querySelector(".Advice span")
 let isLoading = false
+let Line = document.querySelector(".Lines2")
+let Lines = document.querySelectorAll(".Line")
 
 
 async function GetData() {
-    if (!isLoading) {
-        isLoading = true
+   
+      
+        Line.classList.add("loading")
+        Lines.forEach(el => el.classList.add("Back"))
         Inputtext.innerHTML = 'Loading... please wait'
         button.setAttribute("disabled" , true)
 
@@ -19,10 +23,14 @@ async function GetData() {
         } catch (error) {
             console.error('Error:', error)
         } finally {
-            isLoading = false
+            Lines.forEach(el => el.classList.remove("Back"))
+            Line.classList.remove("loading")
+           
         }
-    }
+    
 }
+
+
 
 
 button.addEventListener("click", function () {
