@@ -150,7 +150,11 @@ button{
 }
 
 button:hover{
-    scale: 1.1;
+    background-color:white;
+}
+
+button:hover .Circle{
+    background-color:white;
 }
 
 
