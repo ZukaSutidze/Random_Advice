@@ -1,5 +1,5 @@
 let button = document.querySelector("button")
-let Inputtext = document.querySelector(".Inputtext")
+let Inputtext = document.querySelector(".Inputtext span")
 let span = document.querySelector(".Advice span")
 let isLoading = false
 let Line = document.querySelector(".Lines2")
