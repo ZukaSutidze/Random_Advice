@@ -3,10 +3,10 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 50vw;
     }
 
     .Mainbox{
+        margin-top: 223px;
         width: 540px;
         height: 332px;
         border-radius: 15px;

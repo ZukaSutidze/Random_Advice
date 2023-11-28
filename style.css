@@ -12,7 +12,6 @@ body{
     align-items: center;
     font-family: "Manrope";
     background-color: #202733;
-    height: 100vw;
 }
 
 p{
@@ -20,6 +19,7 @@ p{
 }
 
 .Mainbox{
+    margin-top: 120px;
     width: 343px;
     height: 315px;
     border-radius: 10px;
