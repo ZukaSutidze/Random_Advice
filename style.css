@@ -151,6 +151,7 @@ button{
 
 button:hover{
     background-color:white;
+    box-shadow: rgb(211, 205, 205);
 }
 
 button:hover .Circle{
