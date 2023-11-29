@@ -81,7 +81,6 @@ button{
     top: 283px;
     left: 139px;
     cursor: pointer;
-    box-shadow: 4px 4px 0px #59bd8b;
 }
 
 .Blackbox{
@@ -150,12 +149,11 @@ button{
 }
 
 button:hover{
-    background-color:white;
-    box-shadow: 4px 4px 0px whitesmoke;
+  background: linear-gradient(to bottom right,  rgb(27, 92, 47), rgb(165, 233, 168)); 
 }
 
 button:hover .Circle{
-    background-color:white;
+    background: linear-gradient(to bottom right,  rgb(206, 217, 210), rgb(35, 236, 45)); 
 }
 
 
